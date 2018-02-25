@@ -1,1 +1,15 @@
-
+body {
+  text-align: center;
+  background: black;
+  color: white;
+}
+ul {
+  padding: 10px;
+  /* may not be required if background of entire body stays black
+  background: black;
+  */
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
