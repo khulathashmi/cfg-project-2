@@ -5,9 +5,7 @@ body {
 }
 h1 {
   font-family: 'Permanent Marker', cursive;
-}
-#lighter-font {
-  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
 }
 
 ul {
@@ -19,4 +17,13 @@ ul {
 li {
   display: inline;
   padding: 0px 10px 0px 10px;
+}
+
+#lighter-font {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
