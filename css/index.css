@@ -3,6 +3,13 @@ body {
   background: black;
   color: white;
 }
+h1 {
+  font-family: 'Permanent Marker', cursive;
+}
+#lighter-font {
+  font-family: 'Amatic SC', cursive;
+}
+
 ul {
   padding: 10px;
   /* may not be required if background of entire body stays black
