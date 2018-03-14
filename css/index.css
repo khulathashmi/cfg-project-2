@@ -27,14 +27,22 @@ li {
 .small {
     line-height: 15;
 }
-.main {line-height: 1;
+.main {
+  line-height: 1;
 }
-
+/* add if you want to make images into a grid again
+#images {
+  white-space: nowrap;
+ width: 100%;
+ display: table;
+}
+*/
 
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
+
 .overlay {
   position: absolute;
   top: 0;
