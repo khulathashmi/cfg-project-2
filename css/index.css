@@ -5,7 +5,7 @@ body {
 }
 h1 {
   font-family: 'Permanent Marker', cursive;
-  font-size: 50px;
+  font-size: 100px;
 }
 
 ul {
@@ -22,12 +22,40 @@ li {
 #lighter-font {
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
+  vertical-align: middle;
 }
+.small {
+    line-height: 15;
+}
+.main {line-height: 1;
+}
+
+
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  /*background-color: #8c99a6;*/
 
+}
+.container {
+  position: relative;
+  max-width: 100%;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
