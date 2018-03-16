@@ -65,7 +65,7 @@ li {
   opacity: 1;
 }
 
-/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen)
 .icon-bar {
   position: fixed;
   top: 50%;
@@ -73,8 +73,8 @@ li {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-
-/* Style the icon bar links */
+*/
+/* Style the icon bar links
 .icon-bar a {
   display: block;
   text-align: center;
@@ -83,12 +83,12 @@ li {
   color: white;
   font-size: 20px;
 }
-
-/* Style the social media icons with color, if you want */
+*/
+/* Style the social media icons with color, if you want
 .icon-bar a:hover {
   background-color: #000;
 }
-
+*/
 .facebook {
   background: #3B5998;
   color: white;
@@ -99,7 +99,7 @@ li {
   color: white;
 }
 
-.google {
+.pinterest {
   background: #dd4b39;
   color: white;
 }
