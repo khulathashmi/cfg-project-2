@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link href='css/bootstrap.min.css' rel='stylesheet'>
+  <meta name="viewpoint" content="width=device-width, initial-scale=1">
+  <!--
+    google fonts linked file
+   -->
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower|Permanent+Marker|Saira+Condensed|Shadows+Into+Light" rel="stylesheet">
+
+    <title>image1</title>
+    </head>
+    <body>
+      <div class="container-fluid">
+
+      <ul id="lighter-font">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <a target="_blank" href="images/1.jpg">
+        <img src="images/1.jpg" alt="image" style="width:150px">
+      </a>
+    </body>
+  </html>
