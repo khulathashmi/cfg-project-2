@@ -1,20 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!--
-    <link href= 'css/bootstrap.css' rel= 'stylesheet'> or <link href="css/main.css" rel="stylesheet">
-  -->
-
+    <!--link for bootstrap-->
     <link href='css/bootstrap.min.css' rel='stylesheet'>
     <meta name="viewpoint" content="width=device-width, initial-scale=1">
-
-    <!--
+    <!--link for css file-->
     <link rel="stylesheet" type="text/css" href="css/index.css">
-  -->
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <!--
-    google fonts linked file
-  -->
+    <!--link for google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower|Permanent+Marker|Saira+Condensed|Shadows+Into+Light" rel="stylesheet">
     <!--link for javascript-->
     <script type="text/javascript" src="script.js"></script>
@@ -22,9 +14,11 @@
     <script src=" https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js "></script>
     <!-- Latest compiled Bootstrap JavaScript -->
     <script src=" http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js "></script>
+    <!--link for social media buttons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>about Khulat Hashmi</title>
-    <!--may want to move to a css file-->
+  
     <style>
       body{
         text-align: center;
@@ -33,33 +27,70 @@
         font-family: helvetica;
       }
 
+        .fa {
+          padding: 20px;
+          font-size: 30px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 2px;
+        }
+
+        .fa:hover {
+          opacity: 0.7;
+        }
+
+        .fa-facebook {
+          background: #3B5998;
+          color: white;
+        }
+
+        .fa-twitter {
+          background: #55ACEE;
+          color: white;
+        }
+        .fa-instagram {
+          background: #125688;
+          color: white;
+        }
+
+        .fa-pinterest {
+          background: #cb2027;
+          color: white;
+        }
+        .fa-tumblr {
+          background: #2c4762;
+          color: white;
+        }
+        .fa-flickr {
+          background: #f40083;
+          color: white;
+        }
     </style>
   </head>
   <body>
     <div class="container-fluid">
 
-    <ul id="lighter-font">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="about.html">About</a></li>
-    </ul>
+      <ul id="lighter-font">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
 
-    <h1>Khulat Hashmi</h1>
+      <h1>Khulat Hashmi</h1>
 
-    <p id="lighter-font">I'm a photographer focussed on lightpainting. Get in touch!</p>
-    <input type="email" placeholder="Your email">
-    <button type="button" class="btn btn-outline-secondary btn-sm">Submit</button>
-    <!-- not working
-    <button onclick="alert(thank you)">thank you</button>
-  -->
-    <!-- don't need anymore
-      <input type="submit">
-    -->
+      <p id="lighter-font">I'm a photographer focussed on lightpainting.</p>
+      <a id="lighter-font" href="https://khulathashmi.typeform.com/to/IFlTm8">Get in touch!</a>
 
-    <!--google form -->
-    <!--RUINS UX, SHOULD REMOVE
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScFrilFdrRcyhrTCcfw-ALXkNlKzoCAtwt_RVY1bQcEcIP1YA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
--->
+<!-- social media buttons, copied from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+      <br>
+      <a href="https://en-gb.facebook.com/" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+      <a href="https://www.pinterest.co.uk/" class="fa fa-pinterest"></a>
+      <a href="https://www.tumblr.com/" class="fa fa-tumblr"></a>
+      <a href="https://www.flickr.com/" class="fa fa-flickr"></a>
+      </br>
     </div>
   </body>
 </html>
